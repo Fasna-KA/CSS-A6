@@ -1,0 +1,157 @@
+body{
+    background-image: url(./pics/shara\ desert.jpg);
+    background-size: cover;
+}
+body:hover{
+    transform: translateY(-10px);
+}
+.container{
+    height: 120vh;
+
+
+}
+.nav{
+    width: 96vw;
+    display: flex;
+    justify-content: end;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;      
+}
+.a4{
+    width: 28px;
+    height: 28px;
+    border: 5px solid rgba(247, 245, 245, 0.893);
+    background-color: whitesmoke;
+    background-image: cover;
+    border-radius: 50%;
+    margin: 17px ;
+}
+.a4:hover{
+    cursor: pointer;
+}
+.a5{
+    width: 35px;
+    height: 35px;
+    border: 5px solid rgba(247, 245, 245, 0.893);
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+}
+.a5:hover{
+    cursor: pointer;
+}
+.sahara{
+    width: 95vw;
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.sa{
+
+}
+.h1{
+    font-size: 8vw;
+    margin:70px 0px 30px;
+}
+.h3{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+.sa1{
+    width: 25vw;
+    height: 40vh;
+    background-image: url(./pics/pic-1.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.sa1:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.sa2{
+    width: 25vw;
+    height: 40vh;
+    background-image: url(./pics/pic-2.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.sa2:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.sa3{
+    width: 25vw;
+    height: 40vh;
+    background-image: url(./pics/pic-3.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.sa3:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.sa4{
+    width: 25vw;
+    height: 40vh;
+    background-image: url(./pics/pic-4.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.sa4:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+h3,p{
+    padding: 10px;
+}
+@media (max-width:1100px){
+    .sahara{
+        display: block;
+        width: 96vw;
+
+    }
+    .po1{
+        position: relative;
+        left: 40vw;
+    }
+    .po2{
+        position: relative;
+        left: 40vw;
+    }
+    .nav{
+        display: block;
+    }
+    .container{
+        width: 9vw;
+    }
+    .sa1{
+        width: 70vw;
+        margin: 40px;
+    }
+
+    .sa2{
+        width: 70vw;
+        margin: 40px;
+    }
+
+    .sa3{
+        width: 70vw;
+        margin: 40px;
+    }
+
+    .sa4{
+        width: 70vw;
+        margin: 40px;
+    }
+}
